@@ -1,0 +1,29 @@
+{
+  "name": "qajsproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "@wdio/cli": "^7.18.1",
+    "@wdio/local-runner": "^7.18.1",
+    "@wdio/mocha-framework": "^7.18.0",
+    "@wdio/spec-reporter": "^7.18.0",
+    "chromedriver": "^99.0.0",
+    "wdio-chromedriver-service": "^7.3.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
